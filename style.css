@@ -59,6 +59,7 @@ nav .manu a{
     color: rgb(255, 255, 255);
     border-radius:10px ;
     border: none;
+    
 }
  #head{
     width: fill;
@@ -166,12 +167,16 @@ nav .manu a{
     height: 300px;
     text-align: center;
     box-shadow: 0 6px 50px 0 #0000004b;
+    border-radius: 5px;
+
+    
+    
 
 }
 .skill-box h3{
     font-size: 25px;
     color: black;
-    margin: 80px 15px 30px 15px;
+    margin: 0px 15px 30px 15px;
     
 }
 .skill-box p{
@@ -179,4 +184,82 @@ nav .manu a{
     color: #627382;
     line-height: 15px;
     margin:20px 20px 20px 20px ;
+}
+
+#box .skill-box1 .skill-box .image{
+    width: 31px;
+    height: 26px;
+    /* background-size: 100px; */
+  
+    background-color: #F95555;
+    
+    
+    border-radius: 20px;
+    margin: 69.5px 131px 16px 131px;
+    /* padding: 16px 14px; */
+}
+
+#knowledge{
+    width: fill;
+    height: 840px;
+
+}
+
+#knowledge .knowledge-all{
+    display: flex;
+    margin: 120px;
+    width: 1360px;
+    height: 600px;
+    gap: 60px;
+}
+
+#knowledge .knowledge-image{
+    width: 600px;
+
+}
+
+#knowledge .knowledge-all .the-solution{
+    margin: 110px 0 110px 0 ;
+    width: 700px;
+    height: 380px;
+    gap: 24px;
+}
+
+#knowledge .knowledge-all .the-solution h4{
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+
+}
+#knowledge .knowledge-all .the-solution h2{
+    font-size: 48px;
+    color: #001931;
+    font-size: bold;
+    margin-bottom: 16px;
+}
+#knowledge .knowledge-all .the-solution p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+#knowledge .knowledge-all .the-solution ul{
+    gap: 16px;
+}
+#knowledge .knowledge-all .the-solution ul li{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+#Ready{
+    width: fill;
+    height: 506px;
+    border: 1px solid red;
+}
+#Ready .Ready-all{
+    margin: 2px 120px 120px 120px;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
 }
