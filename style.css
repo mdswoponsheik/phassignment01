@@ -26,6 +26,7 @@ nav {
 .logo img {
     width: 140px;
     height: 60px;
+    align-items: left;
    
 
 }
@@ -37,6 +38,7 @@ nav .manu{
     height: 24px;
     text-decoration: none;
     padding-top: 24px;
+    align-items: center;
 
 }
 nav .manu a{
@@ -68,7 +70,7 @@ nav .manu a{
     
     background-position: center;
     background-size: fill;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px 0px;
     
 }
@@ -137,6 +139,7 @@ nav .manu a{
 }
 .section-heading h2{
     font-size: 48px;
+    margin-top: 48px;
     margin-bottom: 16px;
 
 }
@@ -164,9 +167,9 @@ nav .manu a{
     padding: 24px;
     
     width: 322px;
-    height: 300px;
+    height: 310px;
     text-align: center;
-    box-shadow: 0 6px 50px 0 #0000004b;
+    box-shadow: 0 6px 50px 0 #00000011;
     border-radius: 5px;
 
     
@@ -253,13 +256,30 @@ nav .manu a{
 #Ready{
     width: fill;
     height: 506px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #Ready .Ready-all{
     margin: 2px 120px 120px 120px;
     align-items: center;
     text-align: center;
     background-color: #F7F6F2;
-    width: 1360px;
+    width: 1296px;
     height: 384px;
+}
+
+
+#Ready .Ready-all h2{
+    font-size: 40px ;
+    font-size: bold;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    padding-top: 80px;
+}
+#Ready .Ready-all p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
 }
