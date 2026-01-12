@@ -1,0 +1,182 @@
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+nav {
+    background-color: white;
+    padding: 16px 120px 16px 120px;
+    width: fill;
+    justify-content: space-between;
+    display: flex;
+    height: 92px;
+
+
+}
+.logo img {
+    width: 140px;
+    height: 60px;
+   
+
+}
+nav .manu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    width: 365px;
+    height: 24px;
+    text-decoration: none;
+    padding-top: 24px;
+
+}
+nav .manu a{
+    font-size: 16px;
+    
+   color: black;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+.btn{
+    width: 164px;
+    height: 52px;
+   
+    background-color: #30B868;
+    color: rgb(255, 255, 255);
+    border-radius:10px ;
+    border: none;
+}
+ #head{
+    width: fill;
+    height: 674px;
+     background-image: url(./assets/hero-bg.png);
+    
+    background-position: center;
+    background-size: fill;
+    border: 2px solid red;
+    padding: 20px 0px;
+    
+}
+#head .header-content{
+    align-items: center;
+    justify-content: space-between;
+    width: 1360px;
+    height: 379px;
+    text-align: center;
+   
+    margin: 0 auto;
+
+}
+#head .header-content h4{
+    width: 230px;
+    height: 35px;
+    color: #30B868;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 115px 565px 16px 565px;
+    padding: 8px 12px;
+
+}
+#head .header-content h1{
+    font-size: 72px;
+    font-style: bold;
+    line-height: 84px;
+    
+
+}
+#head .header-content h2{
+    font-size: 72px;
+    font-style: bold;
+    line-height: 84px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+#head .header-content p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: white;
+}
+#head .header-content .btn1{
+    width: 198px;
+    height: 52px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+    
+
+
+.head{
+    align-items: center;
+
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0% auto;
+}
+.section-heading h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+
+}
+
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #627382;
+}
+#box {
+    padding:20px ;
+}
+#box  .box-container{
+    width: 90%;
+    max-width: 1360px;
+    margin: 0% auto;
+}
+
+#box .box-container .skill-box1{
+    display: flex;
+    gap: 24px;
+}
+.skill-box1 .skill-box{
+    padding: 24px;
+    
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 6px 50px 0 #0000004b;
+
+}
+.skill-box h3{
+    font-size: 25px;
+    color: black;
+    margin: 80px 15px 30px 15px;
+    
+}
+.skill-box p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 15px;
+    margin:20px 20px 20px 20px ;
+}
