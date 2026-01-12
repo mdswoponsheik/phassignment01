@@ -283,3 +283,32 @@ nav .manu a{
     margin-bottom: 24px;
 
 }
+#end {
+    width: fill;
+    height: 348px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.end-all{
+    display: flex;
+    width: 1200px;
+    height: 64px;
+    justify-content: space-between;
+    /* margin: 120px 120px 110px 120px; */
+    
+    /* justify-content: center; */
+    align-content: center;
+}
+
+#end h3{
+    font-size: 20px;
+    color: white;
+}
+
+#end h5{
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 120px;
+}
