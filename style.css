@@ -41,6 +41,10 @@ nav .manu{
     align-items: center;
 
 }
+.manu:hover{
+    color: green;
+}
+
 nav .manu a{
     font-size: 16px;
     
@@ -72,13 +76,17 @@ nav .manu a{
     color: rgb(255, 255, 255);
     border-radius:10px ;
     border: none;
+    cursor: pointer;
+    
     
 }
-/* .btn .image{
-    width: 20px;
-    height: 20px;
-    color: red;
-    margin: 16px 0 16px 0 ; */
+.btn2:hover{
+    background-color: #00aaff;
+}
+.btn:hover{
+    background-color: #1c83e4;
+}
+
 
 
  #head{
@@ -137,6 +145,7 @@ nav .manu a{
     width: 198px;
     height: 52px;
     font-size: 16px;
+    color: white;
     border: 1px solid white;
     border-radius: 10px;
     background-color: transparent;
@@ -319,8 +328,15 @@ nav .manu a{
 }
 
 #end h3{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
+}
+#end .icon img{
+    width: 20px;
+    margin: 16px;
+
+    
+    
 }
 
 #end h5{
