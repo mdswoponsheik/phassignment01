@@ -50,19 +50,37 @@ nav .manu a{
     
 }
 
+.btn2{
+    width: 180px;
+    height: 52px;
+    background-color: #30B868;
+    color: rgb(255, 255, 255);
+    border-radius:10px ;
+    border: none;
 
+}
 
 
 .btn{
-    width: 164px;
+    width: 180px;
     height: 52px;
-   
+    background-image: url(./assets/ArrowRight.png);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    margin-right: 16px;
     background-color: #30B868;
     color: rgb(255, 255, 255);
     border-radius:10px ;
     border: none;
     
 }
+/* .btn .image{
+    width: 20px;
+    height: 20px;
+    color: red;
+    margin: 16px 0 16px 0 ; */
+
+
  #head{
     width: fill;
     height: 674px;
@@ -127,10 +145,6 @@ nav .manu a{
     
 
 
-.head{
-    align-items: center;
-
-}
 
 .section-heading {
     max-width: 827px;
@@ -248,10 +262,13 @@ nav .manu a{
 
 #knowledge .knowledge-all .the-solution ul{
     gap: 16px;
+    text-decoration: none;
 }
 #knowledge .knowledge-all .the-solution ul li{
     font-size: 20px;
     margin-bottom: 16px;
+    list-style-type: none;
+    
 }
 #Ready{
     width: fill;
